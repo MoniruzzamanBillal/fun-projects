@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 245, 108, 0.717);
+}
+
+.mainRow{
+    border-radius: 20px;
+    width: 35%;
+    margin: 200px auto;
+    padding: 30px;
+    background-color: rgb(162, 224, 250);
+}
+
+.input{
+    height: 54px;
+    width: 400px;
+    margin: 0px 0px 26px 0px;
+    border: 1px solid blueviolet;
+}
+
+.button{
+    height: 46px;
+    width: 90px;
+    margin: 8px 10px;
+}
+
+.button:active{
+    transform: scale(.98);
+}
+
+
+
+.fifth_row{
+    width: 90%;
+    height: 52px;
+    margin: 5px 28px;
+}
+
+
+
+
+
+
+
+
+
