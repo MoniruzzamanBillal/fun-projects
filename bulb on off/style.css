@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container h1{
+    font-size: 40px;
+    margin: 15px 0px 30px 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 0px 16px 0px;
+    /* display: block; */
+}
+
+.container .btn {
+    text-align: center;
+    
+}
+
+.container .btn .btna{
+    text-align: center;
+    height: 32px;
+    width: 80px;
+    margin: 2px 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all 0.2s ease;
+}
+
+.container .btn .on{
+    background-color: rgba(255, 255, 0, 0.898);
+}
+
+.container .btn .off{
+    background-color: rgba(255, 0, 0, 0.874);
+}
+
+.container .btn .btna:hover{
+    box-shadow: 1px 2px 8px;
+}
+
+
+
