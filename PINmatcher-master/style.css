@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(254, 254, 113); */
+  background-image: linear-gradient(to top right, red, yellow);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* left side  */
+
+.leftSide {
+  background-image: linear-gradient(
+    45deg,
+    rgb(140, 235, 38),
+    rgb(80, 196, 246)
+  );
+  width: 48%;
+  position: absolute;
+  top: 70px;
+  left: 16px;
+  border-radius: 15px;
+  height: 464px;
+  box-shadow: 1px 2px 7px rgb(0, 0, 0);
+}
+
+.leftSide .leftInput {
+  margin: 30px;
+}
+
+.leftSide .leftButton {
+  height: 360px;
+}
+
+.leftSide .leftButton button {
+  background-color: rgb(81, 81, 216);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.leftSide .leftButton button:active {
+  transform: scale(0.98);
+  background-color: rgb(81, 81, 216);
+  box-shadow: 1px 2px 7px black;
+}
+
+/* right side  */
+
+.rightSide {
+  width: 48%;
+  position: absolute;
+  top: 70px;
+  right: 24px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(229, 126, 186),
+    rgb(246, 218, 80)
+  );
+  border-radius: 15px;
+  box-shadow: 1px 2px 7px rgb(0, 0, 0);
+}
+
+.mainRow {
+  margin: 40px;
+  border-radius: 20px;
+  background-color: rgb(162, 224, 250);
+  position: relative;
+}
+
+.input {
+  height: 54px;
+  margin: 10px 0px 8px 0px;
+}
+
+.button {
+  height: 46px;
+  width: 90px;
+  margin: 8px 33px;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.fifth_row {
+  width: 90%;
+  height: 52px;
+  margin: 5px 28px;
+}
+
+.bottom {
+  z-index: 1;
+  position: relative;
+}
+
+.bottom .match {
+  display: none;
+  position: absolute;
+  top: -298px;
+  left: 48%;
+  background-color: aqua;
+  border-radius: 20px;
+  box-shadow: 1px 2px 12px rgb(0, 0, 0);
+}
+
+.bottom .match p {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 6px auto;
+  padding: 0px 80px;
+}
+
+.bottom .notMatch {
+  display: none;
+  position: absolute;
+  top: -298px;
+  left: 44%;
+  background-color: aqua;
+  border-radius: 20px;
+  box-shadow: 1px 2px 12px rgb(0, 0, 0);
+}
+
+.bottom .notMatch p {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 6px auto;
+  padding: 0px 60px;
+}
