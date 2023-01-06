@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg {
+  background-image: url("img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh + 30px);
+  width: calc(100vw + 30px);
+  position: absolute;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loadingTxt {
+  font-size: 45px;
+  color: white;
+}
